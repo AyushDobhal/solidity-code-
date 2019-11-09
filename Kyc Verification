@@ -1,0 +1,78 @@
+pragma solidity ^0.4.22;
+
+contract Kyc verification {
+    
+    TokenCreator customer;
+    address username ;
+    bytes32 name;
+
+    
+    constructor(username ) public {
+        /
+        owner = msg.sender;
+        rating ;
+        bank ;
+        upvotes;
+        
+        name = _name;
+    }
+
+    function changeName(bytes32 newName) public {
+        
+        if (msg.sender == address(creator))
+            name = newName;
+    }
+
+    function transfer(bank) public {
+        
+        if (msg.sender != owner) return;
+        
+        if (creator.isTokenTransferOK(owner, newOwner))
+            owner = newOwner;
+    }
+}
+
+contract bank {
+    function createToken(bytes32 name)
+       public
+       returns (OwnedToken tokenAddress)
+    {
+    
+    {
+  "extends": "default",
+  "rules": {
+    "avoid-call-value": "warn",
+    "const-name-snakecase": "warn",
+    "func-name-mixedcase": "warn",
+    "func-order": "add request",
+    "func-order": "add customer",
+    "func-order": "remove reques",
+    "func-param-name-mixedcase": "set password",
+    "var-name-mixedcase": "warn",
+    "visibility-modifier-order": "warn"
+  }
+}
+    
+    
+        name ;
+        ethaddress;
+        kyc count; 
+        reg number;
+        return new OwnedToken(name);
+    }
+
+    function kyc request() public {
+        
+        tokenAddress.changename(isAllowed);
+    }
+
+    function isTokenTransferOK(address currentOwner, address newOwner)
+        public
+        view
+        returns (bool ok)
+    {
+        // Check some arbitrary condition.
+        address tokenAddress = msg.sender;
+        return (keccak256(newOwner) & 0xff) == (bytes20(tokenAddress) & 0xff);
+    }
+}
