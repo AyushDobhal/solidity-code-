@@ -1,0 +1,22 @@
+mkdir --p kyc verification/private
+puppeth-ethereum private network manager 
+kyc verification 
+network link 4224
+Estash
+ox.o
+4224
+ls
+admin directory
+datadir.kycverification.json
+ls
+datadir.account new 
+--datdir.account
+pass1234
+atom startnode.cmd
+geth attach
+eth.coinbase
+eth.getbalance
+miner.stop()
+net.version
+code --install-extension ayushdobhal.solidity
+mkdir -p Kyc verification/private
